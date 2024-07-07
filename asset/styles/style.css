@@ -21,6 +21,9 @@ nav{
     align-items: center;
     gap: 30px;
 }
+.list{
+    display: none;
+}
 .navigation{
     display: flex;
     gap: 25px;
@@ -369,6 +372,9 @@ footer ul{
 @media (min-width:300px) and (max-width:799px){
     .header{
         padding: 20px;
+    }
+    .list{
+        display: flex;
     }
     nav{
         display: none;

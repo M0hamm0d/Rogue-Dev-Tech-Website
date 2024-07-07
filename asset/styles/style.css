@@ -258,7 +258,8 @@ li{
 }
 .quality{
     position: relative;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 30px;
     border-top: 1px solid #d4d4d4;
     border-bottom: 1px solid #d4d4d4;
@@ -420,9 +421,10 @@ footer ul{
     }
     .more-about-us .about {
         margin-left: 0px;
+        padding-top: 20px;
     }
     .quality{
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
     .center-line{
         display: none;

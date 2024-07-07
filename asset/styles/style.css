@@ -362,6 +362,7 @@ footer{
 }
 footer .copy-right{
     display: flex;
+    gap: 10px;
 }
 footer a{
     text-decoration: none;

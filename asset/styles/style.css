@@ -1,0 +1,450 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #01004d;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 45px;
+    align-items: center;
+}
+.app-logo{
+    background-color: #dcdcff;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navigation{
+    display: flex;
+    gap: 25px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.navigation a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.see-more{
+    background-color: #dcdcff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: fit-content;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.empower{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+}
+.empower .h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #01004d;
+}
+.empower .what-we-do{
+    display: flex;
+    justify-content: left;
+    margin-top: 15px;
+}
+.empower .see-more{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.about-us img{
+    width: 100%;
+}
+.active-time{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 45px;
+}
+.active-time .text{
+    text-align: center;
+}
+.our-offers{
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px 0 80px;
+}
+.offer-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 45px;
+    gap: 50px;
+}
+.card{
+    position: relative;
+    border: 1px solid #bfbfd2;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    padding: 25px 5px 15px 20px;
+}
+.card .absolute{
+    width: fit-content;
+    position: absolute;
+    padding: 10px;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dcdcff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+.card p{
+    display: flex;
+    justify-content: center;
+}
+.our-services, .begin-project{
+    padding: 70px;
+    color: white;
+    background-color: #01004d;
+}
+.our-services .our-offers{
+    color: white;
+    margin: 0 0 30px;
+}
+.help{
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+}
+.service-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+}
+.service-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 7px;
+}
+.service-cards .center{
+    background-color: #d7d7ff;
+    color: #01004d;
+}
+.service-card .title{
+    font-size: 12px;
+    font-weight: 700;
+}
+.service-card .service-body{
+    font-size: 14px;
+    padding-top: 6px;
+}
+.portfolio-section{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 10px;
+}
+.our-portfolio{
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+}
+.project-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    padding: 30px 45px;
+    height: 100%;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.coming-soon{
+    position: absolute;
+    background-color: white;
+    padding: 7px;
+    border-radius: 7px;
+    top: 12px;
+    left: 12px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.coming-soon p {
+    text-wrap: nowrap;
+    padding-left: 5px;
+}
+.project-card img{
+    width: 100%;
+    height: 100%;
+}
+.project-card h4{
+    margin: 10px 0;
+}
+.other-projects{
+
+    width: 100%;
+}
+.other-projects button{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid #01004d;
+    border-radius: 7px;
+    margin: 10px auto 30px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.begin-project .see-more{
+    color: #01004d;
+    display: flex;
+    width: fit-content;
+    margin: 40px auto 0;
+    font-size: 15px;
+}
+.more-about-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 0 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 120px 0 0;
+}
+.more-about-us .about{
+    margin-left: 70px;
+}
+.office-pics{
+    width: 100%;
+}
+.more-about-us .office-pics img{
+    width: 100%;
+    height: 100%;
+}
+.about h5{
+    margin: 15px 0 10px;
+}
+.about-rogue{
+    margin: 30px 0 15px;
+}
+.about p{
+    font-size: 14px;
+}
+.about-rogue span{
+    font-weight: 600;
+}
+.quality{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    justify-content: space-between;
+    gap: 30px;
+}
+.sub-qualify{
+    padding-bottom: 10px;
+}
+.sub-qualify div{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 8px;
+}
+.center-line{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+    height: 60px;
+    background-color: #d4d4d4;
+}
+.sign-up{
+    display: flex;
+    margin-top: 100px;
+}
+.sign-up>:first-child{
+    display: flex;
+    width: 100%;
+} 
+.sign-up img{
+    width: 100%;
+    /* width: 600px; */
+    height: 100%;
+}
+.get-in-touch{
+    background-color: #01004d;
+    color: white;
+    padding: 65px;
+    width: 100%;
+}
+.your-feedback{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 15px 0px;
+}
+.your-feedback>:first-child{
+    text-wrap: nowrap;
+}
+input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.suggestion-inp{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 50px 15px;
+    border-radius: 6px;
+    margin: 40px 0 25px;
+}
+.robot{
+    border: 1px solid white;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.robot div{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+}
+.sign-up .see-more{
+    color: #01004d;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 45px;
+    align-items: center;
+}
+footer .copy-right{
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+    color: #01004d;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+}
+@media (min-width:300px) and (max-width:799px){
+    .header{
+        padding: 20px;
+    }
+    nav{
+        display: none;
+    }
+    .about-us{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .empower .h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .active-time{
+        flex-direction: column;
+        gap: 20px;
+        margin: 25px auto;
+    }
+    .offer-cards{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .our-services{
+        padding: 70px 40px;
+    }
+    .service-cards{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .project-cards{
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 30px 20px;
+    }
+    .begin-project{
+        padding: 40px;
+    }
+    .more-about-us{
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+    .more-about-us .about {
+        margin-left: 0px;
+    }
+    .quality{
+        flex-direction: column;
+    }
+    .center-line{
+        display: none;
+    }
+    .sign-up{
+        flex-direction: column;
+    }
+    .get-in-touch{
+        padding: 30px;
+    }
+    .your-feedback{
+        flex-direction: column;
+    }
+    .suggestion-inp{
+        padding: 40px 15px;
+    }
+    .robot{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+        align-items: start;
+    }
+    footer .copy-right{
+        flex-direction: column;
+        margin: 10px 0;
+        gap: 10px;
+    }
+    
+}
